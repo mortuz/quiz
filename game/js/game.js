@@ -15,7 +15,7 @@ var gameTime = 45; // Total game time in seconds
 
 var categoryPage = true; //show/hide category select page
 var categoryAllOption = false; //add ALL category select option
-var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
+var categoryContinueText = 'PLAY GAME'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
 var totalQuestions = 0; //set 0 for all questions, set more than 0 to limit questions
