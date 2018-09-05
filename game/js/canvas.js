@@ -176,16 +176,16 @@ function buildGameCanvas(){
 	brainResult = new createjs.Bitmap(loader.getResult('brainResult'));
 	centerReg(brainResult);
 	brainResult.x = canvasW/2;
-	brainResult.y = canvasH/100 * 25;
+	brainResult.y = canvasH/100 * 15;
 	
 	resultDescTxt = new createjs.Text();
-	resultDescTxt.font = "60px bariol_regularregular";
+	resultDescTxt.font = "50px bariol_regularregular";
 	resultDescTxt.color = "#ffffff";
 	resultDescTxt.text = resultTitleText;
 	resultDescTxt.textAlign = "center";
 	resultDescTxt.textBaseline='alphabetic';
 	resultDescTxt.x = canvasW/2;
-	resultDescTxt.y = canvasH/100*44;
+	resultDescTxt.y = canvasH/100*32;
 	
 	resultScoreTxt = new createjs.Text();
 	resultScoreTxt.font = "110px bariol_regularregular";
@@ -194,7 +194,16 @@ function buildGameCanvas(){
 	resultScoreTxt.textAlign = "center";
 	resultScoreTxt.textBaseline='alphabetic';
 	resultScoreTxt.x = canvasW/2;
-	resultScoreTxt.y = canvasH/100*57;
+	resultScoreTxt.y = canvasH/100*45;
+
+	codeTxt = new createjs.Text();
+	codeTxt.font = "60px bariol_regularregular";
+	codeTxt.color = "#f7f7f7";
+	codeTxt.text = 0;
+	codeTxt.textAlign = "center";
+	codeTxt.textBaseline = 'alphabetic';
+	codeTxt.x = canvasW / 2;
+	codeTxt.y = canvasH / 100 * 55;
 	
 	resultShareTxt = new createjs.Text();
 	resultShareTxt.font = "30px bariol_regularregular";
@@ -232,7 +241,7 @@ function buildGameCanvas(){
 	mainContainer.addChild(logo, startButton);
 	categoryContainer.addChild(arrowLeft, arrowRight, categoryTitleTxt, categoryContinueTxt);
 	gameContainer.addChild(loaderAnimate, editContainer, questionContainer, questionTxt, brainScore, scoreTxt, timerBar, brainCorrectAnimate, brainWrongAnimate);
-	resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, buttonReplay);
+	resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, codeTxt, buttonReplay);
 	if(shareEnable){
 		resultContainer.addChild(iconFacebook, iconTwitter, iconGoogle, resultShareTxt);
 	}

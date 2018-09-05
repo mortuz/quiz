@@ -7,6 +7,7 @@
  * GAME SETTING CUSTOMIZATION START
  * 
  */
+var code = 'ABCD';
 var loadingText = 'LOADING...'; //text for loading...
 var startButtonText = 'TAP TO START'; //text for start button
 
@@ -55,7 +56,7 @@ var textHeight = 70; //text height
 var textSpace = 25; //text spacing
 
 var timerEnable = true; //enable timer
-var timerStart = 5; //timer start number
+var timerStart = 100; //timer start number
 var timerBarHeight = 10; //timer bar height
 var timerBarColour = '#fff'; //timer bar colour
 
@@ -317,9 +318,28 @@ function stopGame(){
 		displayB();
 	}
 
+	showCode();
 	// countdown
 	clearInterval(countdown);
 	$('#timer').html('');
+}
+
+function showCode() {
+	var pair = Math.floor(playerData.score / 2);
+
+	var displayableCode = '';
+
+	for (var i = 0; i < code.length; i++) {
+		if (i <pair) {
+			displayableCode += code[i];
+		} else {
+			displayableCode += '_';
+		}
+	}
+
+	codeTxt.text = displayableCode;
+
+	console.log(displayableCode);
 }
 
 /*!
@@ -1312,8 +1332,9 @@ function startTimer() {
 		$('#timer').html(minutes + ":" + seconds);
 
 		if (--timer < 0) {
+			goPage('result');
+			// console.log('Timer ended');
 			timer = duration;
-			stopGame();
 		}
 	}, 1000);
 }
