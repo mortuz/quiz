@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text" audio=""><![CDATA[How much is 150% of 501]]></question>
 		<answers answerLayout="4type1" correctAnswer="2" answerOffsetY="-30">
 			<answer width="300">55</answer>
@@ -69,7 +69,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[Which number should come
 		next in the series
 		1, 3, 6, 10, 15]]></question>
@@ -83,7 +83,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[10 people shake hand with each other.
 		How many handshakes will there be in total?]]></question>
 		<answers answerLayout="4type3" correctAnswer="3">
@@ -95,7 +95,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[A boy keep 3 Mangoes, 6 Eggs, 1 Tomato,
 		2 Apples and 5 Oranges in his bag.
 		How many fruits does he have in total?]]></question>
@@ -119,7 +119,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[You are participating in a race.
 		You overtake the second person.
 		What position are you in?]]></question>
@@ -131,7 +131,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[Some months have 31 days,
 		some others have 30 days.
 		How many months have 28 days?]]></question>

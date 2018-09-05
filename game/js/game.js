@@ -14,7 +14,7 @@ var startButtonText = 'TAP TO START'; //text for start button
 var gameTime = 45; // Total game time in seconds
 
 var categoryPage = true; //show/hide category select page
-var categoryAllOption = true; //add ALL category select option
+var categoryAllOption = false; //add ALL category select option
 var categoryContinueText = 'SELECT CATEGORY'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
@@ -1232,6 +1232,7 @@ function loadXML(src){
 				edit.xmlFile = result;
 			}
             $(result).find('item').each(function(questionIndex, questionElement){
+				console.log(src, questionElement)
 				category_arr.push($(questionElement).find('category').text());
 				
 				question_arr.push({category:$(questionElement).find('category').text(), question:$(questionElement).find('question').text(), fontSize:$(questionElement).find('question').attr('fontSize'),type:$(questionElement).find('question').attr('type'), answer:[], answerLayout:$(questionElement).find('answers').attr('answerLayout'), answerOffsetY:$(questionElement).find('answers').attr('answerOffsetY'), correctAnswer:$(questionElement).find('answers').attr('correctAnswer'), audio:$(questionElement).find('question').attr('audio'), randomOrder:$(questionElement).find('answers').attr('randomOrder')});

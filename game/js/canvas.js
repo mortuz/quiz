@@ -56,18 +56,18 @@ function buildGameCanvas(){
 	startButton.x = canvasW/2;
 	startButton.y = canvasH/100*83;
 	
-	arrowLeft = new createjs.Bitmap(loader.getResult('arrow'));
-	arrowRight = new createjs.Bitmap(loader.getResult('arrow'));
-	centerReg(arrowLeft);
-	centerReg(arrowRight);
+	// arrowLeft = new createjs.Bitmap(loader.getResult('arrow'));
+	// arrowRight = new createjs.Bitmap(loader.getResult('arrow'));
+	// centerReg(arrowLeft);
+	// centerReg(arrowRight);
 	
-	arrowLeft.x = canvasW/100 * 10;
-	arrowRight.x = canvasW/100 * 90;
-	arrowLeft.scaleX = -1;
-	arrowLeft.y = arrowRight.y = canvasH/2;
+	// arrowLeft.x = canvasW/100 * 10;
+	// arrowRight.x = canvasW/100 * 90;
+	// arrowLeft.scaleX = -1;
+	// arrowLeft.y = arrowRight.y = canvasH/2;
 	
-	createHitarea(arrowLeft);
-	createHitarea(arrowRight);
+	// createHitarea(arrowLeft);
+	// createHitarea(arrowRight);
 	
 	categoryTxt = new createjs.Text();
 	categoryTxt.font = "70px bariol_regularregular";
@@ -239,7 +239,8 @@ function buildGameCanvas(){
 	buttonReplay.hitArea = new createjs.Shape(new createjs.Graphics().beginFill("#000").drawRect(-200, -30, 400, 40));
 	
 	mainContainer.addChild(logo, startButton);
-	categoryContainer.addChild(arrowLeft, arrowRight, categoryTitleTxt, categoryContinueTxt);
+	// categoryContainer.addChild(arrowLeft, arrowRight, categoryTitleTxt, categoryContinueTxt);
+	categoryContainer.addChild(categoryTitleTxt, categoryContinueTxt);
 	gameContainer.addChild(loaderAnimate, editContainer, questionContainer, questionTxt, brainScore, scoreTxt, timerBar, brainCorrectAnimate, brainWrongAnimate);
 	resultContainer.addChild(brainResult, resultDescTxt, resultScoreTxt, codeTxt, buttonReplay);
 	if(shareEnable){

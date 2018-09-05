@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questions>
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text" audio=""><![CDATA[How much is 150% of 50]]></question>
 		<answers answerLayout="4type1" correctAnswer="2" answerOffsetY="-30">
 			<answer width="300">55</answer>
@@ -11,7 +11,7 @@
 		</answers>
 	</item>
 	
-	<item>
+	<!-- <item>
 		<category>Idiot Test</category>
 		<question type="image">assets/questions/twins.png</question>
 		<answers answerLayout="4type2" correctAnswer="2" answerOffsetY="200">
@@ -67,9 +67,9 @@
 			<answer width="350"><![CDATA[Elephant]]></answer>
 		</answers>
 	</item>
-	
+	 -->
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[Which number should come
 		next in the series
 		1, 3, 6, 10, 15]]></question>
@@ -83,7 +83,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[10 people shake hand with each other.
 		How many handshakes will there be in total?]]></question>
 		<answers answerLayout="4type3" correctAnswer="3">
@@ -95,7 +95,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[A boy keep 3 Mangoes, 6 Eggs, 1 Tomato,
 		2 Apples and 5 Oranges in his bag.
 		How many fruits does he have in total?]]></question>
@@ -107,7 +107,7 @@
 		</answers>
 	</item>
 	
-	<item>
+	<!-- <item>
 		<category>Idiot Test</category>
 		<question type="text"><![CDATA[.sdrawkcab noitseuq siht rewsnA]]></question>
 		<answers answerLayout="4type1" correctAnswer="1" answerOffsetY="-50">
@@ -116,10 +116,10 @@
 			<answer width="500"><![CDATA[I don't understand]]></answer>
 			<answer width="500"><![CDATA[Pass]]></answer>
 		</answers>
-	</item>
+	</item> -->
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[You are participating in a race.
 		You overtake the second person.
 		What position are you in?]]></question>
@@ -131,7 +131,7 @@
 	</item>
 	
 	<item>
-		<category>IQ Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[Some months have 31 days,
 		some others have 30 days.
 		How many months have 28 days?]]></question>
@@ -143,7 +143,7 @@
 		</answers>
 	</item>
 	
-	<item>
+	<!-- <item>
 		<category>Test (Audio)</category>
 		<question type="image" audio="assets/sounds/questions/question1.ogg">assets/questions/tshirt.png</question>
 		<answers answerLayout="4type2" correctAnswer="3" answerRandom="true">
@@ -183,5 +183,5 @@
 			<answer audio="assets/sounds/questions/question3_a7.ogg"><![CDATA[None]]></answer>
 			<answer audio="assets/sounds/questions/question3_a8.ogg"><![CDATA[Nunu]]></answer>
 		</answers>
-	</item>
+	</item> -->
 </questions>
