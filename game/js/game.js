@@ -95,15 +95,15 @@ var answerSequence_arr = [];
  * 
  */
 function buildGameButton(){
-	// buttonReplay.cursor = "pointer";
-	// buttonReplay.addEventListener("click", function(evt) {
-	// 	playSound('soundSelect');
-	// 	if(categoryPage){
-	// 		goPage('category');
-	// 	}else{
-	// 		goPage('game');
-	// 	}
-	// });
+	buttonReplay.cursor = "pointer";
+	buttonReplay.addEventListener("click", function(evt) {
+		playSound('soundSelect');
+		if(categoryPage){
+			goPage('category');
+		}else{
+			goPage('game');
+		}
+	});
 	
 	iconFacebook.cursor = "pointer";
 	iconFacebook.addEventListener("click", function(evt) {
