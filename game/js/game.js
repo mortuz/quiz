@@ -66,10 +66,10 @@ var randomQuestionEnable = true; //toggle random question
 var randomAnswerEnable = true; //toggle answer in random order
 
 var resultTitleText = 'BEST SCORE'; //text for result page title
-var buttonReplayText = 'TRY AGAIN'; //text for replay button
+var buttonReplayText = 'GAME OVER'; //text for replay button
 
 //Social share, [SCORE] will replace with game score
-var shareEnable = true; //enable share option
+var shareEnable = false; //enable share option
 var shareText ='SHARE IT NOW'; //text for share instruction
 var shareTitle = 'Highscore on Quiz Game is [SCORE]';//social share score title
 var shareMessage = '[SCORE] is mine new highscore on Quiz Game! Try it now!'; //social share score message
@@ -95,15 +95,15 @@ var answerSequence_arr = [];
  * 
  */
 function buildGameButton(){
-	buttonReplay.cursor = "pointer";
-	buttonReplay.addEventListener("click", function(evt) {
-		playSound('soundSelect');
-		if(categoryPage){
-			goPage('category');
-		}else{
-			goPage('game');
-		}
-	});
+	// buttonReplay.cursor = "pointer";
+	// buttonReplay.addEventListener("click", function(evt) {
+	// 	playSound('soundSelect');
+	// 	if(categoryPage){
+	// 		goPage('category');
+	// 	}else{
+	// 		goPage('game');
+	// 	}
+	// });
 	
 	iconFacebook.cursor = "pointer";
 	iconFacebook.addEventListener("click", function(evt) {
