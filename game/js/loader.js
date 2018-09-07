@@ -18,7 +18,7 @@ function initPreload(){
 	resizeGameFunc();
 	
 	loader = new createjs.LoadQueue(false);
-	manifest=[{src:'assets/q-logo.png', id:'logo'},
+	manifest=[{src:'assets/logo.png', id:'logo'},
 			{src:'assets/brain_score.png', id:'brainScore'},
 			{src:'assets/brain_result.png', id:'brainResult'},
 			{src:'assets/icon_facebook.png', id:'iconFacebook'},

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<questions>
+<?xml version="1.0" encoding="UTF-8"?><questions>
 	<item>
 		<category>Main</category>
-		<question type="text" audio=""><![CDATA[How much is 150% of 50]]></question>
+		<question type="text" audio=""><![CDATA[How much is 150% of 50 MAT]]></question>
 		<answers answerLayout="4type1" correctAnswer="2" answerOffsetY="-30">
-			<answer width="300">55</answer>
+			<answer width="300" type="text" audio=""><![CDATA[55 MAT]]></answer>
 			<answer width="300">75</answer>
 			<answer width="300">65</answer>
 			<answer width="300">500</answer>
