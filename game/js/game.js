@@ -18,9 +18,9 @@ var categoryAllOption = false; //add ALL category select option
 var categoryContinueText = 'PLAY GAME'; //text for category page button
 var categoryAllText = 'All'; //text for all category select option
 
-var totalQuestions = 0; //set 0 for all questions, set more than 0 to limit questions
+var totalQuestions = 8; //set 0 for all questions, set more than 0 to limit questions
 
-var backgroundColour = '#755FBE'; //background colour
+var backgroundColour = '#015f7b'; //background colour
 var questionTextColour = '#fff'; //question text colour
 var answerTextColour = '#fff'; //answer text colour
 var questionTextSize = 50; //question text size

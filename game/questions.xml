@@ -32,9 +32,9 @@
 			<answer x="780" y="400" type="image">assets/questions/number4.png</answer>
 		</answers>
 	</item>
-	
+	-->
 	<item>
-		<category>Idiot Test</category>
+		<category>Main</category>
 		<question type="image">assets/questions/parking.png</question>
 		<answers answerLayout="4type2" correctAnswer="4" answerOffsetY="120">
 			<answer><![CDATA[100]]></answer>
@@ -45,7 +45,7 @@
 	</item>
 	
 	<item>
-		<category>Idiot Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[Which screw needs a bigger
 		screwdriver?]]></question>
 		<answers answerLayout="3type3" correctAnswer="1">
@@ -56,7 +56,7 @@
 	</item>
 	
 	<item>
-		<category>Idiot Test</category>
+		<category>Main</category>
 		<question type="text"><![CDATA[Which one of the five is least
 		like the other four?]]></question>
 		<answers answerLayout="5type1" correctAnswer="4">
@@ -67,7 +67,7 @@
 			<answer width="350"><![CDATA[Elephant]]></answer>
 		</answers>
 	</item>
-	 -->
+	 
 	<item>
 		<category>Main</category>
 		<question type="text"><![CDATA[Which number should come
@@ -107,8 +107,8 @@
 		</answers>
 	</item>
 	
-	<!-- <item>
-		<category>Idiot Test</category>
+	<item>
+		<category>Main</category>
 		<question type="text"><![CDATA[.sdrawkcab noitseuq siht rewsnA]]></question>
 		<answers answerLayout="4type1" correctAnswer="1" answerOffsetY="-50">
 			<answer width="500"><![CDATA[K.O]]></answer>
@@ -116,7 +116,7 @@
 			<answer width="500"><![CDATA[I don't understand]]></answer>
 			<answer width="500"><![CDATA[Pass]]></answer>
 		</answers>
-	</item> -->
+	</item>
 	
 	<item>
 		<category>Main</category>
